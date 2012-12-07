@@ -2,9 +2,9 @@
 Schedule NextGen images
 ================================
 
--Homepage:  https://github.com/mariusv/rackspace-schedule-images
--Credits:   Copyright 2012 Marius Voila <myself@mariusv.com>
--Licence:   MIT
+- Homepage:  https://github.com/mariusv/rackspace-schedule-images
+- Credits:   Copyright 2012 Marius Voila <myself@mariusv.com>
+- Licence:   MIT
 
 ABOUT THIS SCRIPT
 =================
