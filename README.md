@@ -1,7 +1,7 @@
 THIS IS NOT AN TOOL PROVIDED/MAINTANED OR SUPPORTED BY Rackspace
 ================================================================
 
-If you expeience any problems or you have a feature request just send me an email
+If you have a feature request just send me an email
 ----------------------------------------------------------------------------------
 
 
