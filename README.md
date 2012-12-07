@@ -1,9 +1,12 @@
+THIS IS NOT AN TOOL PROVIDED OR MAINTANED BY Rackspace
+=======================================================
+
+
+
+
 ================================
 Schedule NextGen images
 ================================
-
-THIS IS NOT AN TOOL PROVIDED OR MAINTANED BY Rackspace
-=======================================================
 
 - Homepage:  https://github.com/mariusv/rackspace-schedule-images
 - Credits:   Copyright 2012 Marius Voila <myself@mariusv.com>
