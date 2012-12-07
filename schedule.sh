@@ -2,13 +2,21 @@
 if [[ -f '/root/.nova' ]]; then
 source '/root/.nova'
 else
-        echo "Impossible to run this script because I can't find the config file!!!"
+echo "Impossible to run this script because I can't find the config file!"
 fi
-HOSTNAME='server'
-TODAY=$(date +"%H_%M_%m_%d_%Y")
-FIVE_DAYS_AGO=$(date --date='5 days ago' +"%H_%M_%m_%d_%Y")
+HOSTNAME='zenoss'
+TODAY=$(date +"%M_%H_%d_%m_%Y")
+FIVE_DAYS_AGO=$(date --date='5 days ago' +"%M_%H_%d_%m_%Y")
 nova image-create $HOSTNAME $HOSTNAME-$TODAY
-if [[ -z 'nova image-list | grep $HOSTNAME-$TODAY SAVING']]; then
-echo "Image was successful"
+sleep 2h
+echo "nova image-list | grep $HOSTNAME-$TODAY | grep SAVING"
+if [[ -f 'nova image-list | grep $HOSTNAME-$TODAY | grep SAVING' ]]; then
+echo ${BODYERR}| mail -s ${SUBJECT} ${TO_ADDRESS}
+
+else
+
+echo ${BODY}| mail -s ${SUBJECT} ${TO_ADDRESS}
+
+fi
 
 nova image-delete $HOSTNAME-$FIVE_DAYS_AGO

@@ -1,8 +1,12 @@
-OS_USERNAME=user
-OS_TENANT_NAME=user
+OS_USERNAME=Your_mycloud_user
+OS_TENANT_NAME=Your_mycloud_user
 OS_AUTH_SYSTEM=rackspace
-OS_PASSWORD=API Key
-OS_AUTH_URL=https://lon.identity.api.rackspacecloud.com/v2.0/
+OS_PASSWORD=Your_API_Key
+OS_AUTH_URL=https://lon.auth.api.rackspacecloud.com/v2.0
 OS_REGION_NAME=LON
 OS_NO_CACHE=1
 export OS_USERNAME OS_TENANT_NAME OS_AUTH_SYSTEM OS_PASSWORD OS_AUTH_URL OS_REGION_NAME OS_NO_CACHE
+TO_ADDRESS="you@your-domain.com"
+SUBJECT="Schedule"
+BODY="Image $HOSTNAME-$TODAY has completed successful. Enjoy the rest of the day."
+BODYERR="This image $HOSTNAME-$TODAY has failed. Please open a ticket to delete the failing image and reset the state of the server."
