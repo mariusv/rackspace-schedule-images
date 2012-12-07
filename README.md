@@ -67,10 +67,10 @@ save and you are good to go! :-)
 
 LICENSE:
 ========
-Unless otherwise noted, all files are released under the `MIT`_ license,
+Unless otherwise noted, all files are released under the [MIT license](http://en.wikipedia.org/wiki/MIT_License),
 exceptions contain licensing information in them.
 
-.. _`MIT`: http://en.wikipedia.org/wiki/MIT_License
+`MIT`: 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
