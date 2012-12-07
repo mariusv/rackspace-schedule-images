@@ -4,7 +4,7 @@ source '/root/.nova'
 else
 echo "Impossible to run this script because I can't find the config file!"
 fi
-HOSTNAME='zenoss'
+HOSTNAME='the_server_you_want_to_take_image_of'
 TODAY=$(date +"%M_%H_%d_%m_%Y")
 FIVE_DAYS_AGO=$(date --date='5 days ago' +"%M_%H_%d_%m_%Y")
 nova image-create $HOSTNAME $HOSTNAME-$TODAY
