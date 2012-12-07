@@ -1,6 +1,6 @@
 #!/bin/bash
-if [[ -f '/root/.nova' ]]; then
-source '/root/.nova'
+if [[ -f '/root/nova' ]]; then
+source '/root/nova'
 else
 echo "Impossible to run this script because I can't find the config file!"
 fi
