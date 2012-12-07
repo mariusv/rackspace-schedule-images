@@ -2,6 +2,9 @@
 Schedule NextGen images
 ================================
 
+THIS IS NOT AN TOOL PROVIDED OR MAINTANED BY Rackspace
+=======================================================
+
 - Homepage:  https://github.com/mariusv/rackspace-schedule-images
 - Credits:   Copyright 2012 Marius Voila <myself@mariusv.com>
 - Licence:   MIT
@@ -12,6 +15,9 @@ ABOUT THIS SCRIPT
 This bash script was designed to automate and simplify the remote backup
 process of schedule images on Rackspace Cloud Files .  After your script is configured, you can
 easily schedule(by using cron) an image backup for NextGen servers on Rackspace Cloud.
+
+
+
 
 
 REQUIREMENT
