@@ -1,6 +1,8 @@
-THIS IS NOT AN TOOL PROVIDED OR MAINTANED BY Rackspace
-=======================================================
+THIS IS NOT AN TOOL PROVIDED/MAINTANED OR SUPPORTED BY Rackspace
+================================================================
 
+If you expeience any problems or you have a feature request just send me an email
+----------------------------------------------------------------------------------
 
 
 
@@ -9,10 +11,10 @@ Schedule NextGen images
 ================================
 
 - Homepage:  https://github.com/mariusv/rackspace-schedule-images
-- Credits:   Copyright 2012 Marius Voila <myself@mariusv.com>
+- Credits:   Copyright 2012 Marius Voila <marius.voila@gmail.com>
 - Licence:   MIT
 
-ABOUT THIS SCRIPT
+Description
 =================
 
 This bash script was designed to automate and simplify the remote backup
@@ -89,10 +91,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   SOFTWARE.
-
-  Except as contained in this notice, the name of Rackspace US, Inc. shall not
-  be used in advertising or otherwise to promote the sale, use or other dealings
-  in this Software without prior written authorization from Rackspace US, Inc. 
   
   
   
