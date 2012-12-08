@@ -33,8 +33,8 @@ REQUIREMENT
 USAGE:
 ======
 
-Install git
-------------
+Install git and postfix:
+-----------------------
 
 Debian/Ubuntu:
 
@@ -55,11 +55,11 @@ chmod +x schedule.sh (to make it executable)
 Edit nova file and add your credentials where:
 ----------------------------------------------
 
-OS_USERNAME= is your username(the user you use to login on your cloud account)
-OS_PASSWORD= is your API Key and you can find it in your Rackspace Cloud account.
-HOSTNAME= is the server you will take an image of
-DELETE= you have to choose between 'yes' or 'no' where 'yes' means you want to delete images older then 5 days and 'no' means you want to keep the older images
-TO_ADDRESS= will be the email address where you want to get notifications regarding the image process
+- OS_USERNAME= is your username(the user you use to login on your cloud account)
+- OS_PASSWORD= is your API Key and you can find it in your Rackspace Cloud account.
+- HOSTNAME= is the server you will take an image of
+- DELETE= you have to choose between 'yes' or 'no' where 'yes' means you want to delete images older then 5 days and 'no' means you want to keep the older images
+- TO_ADDRESS= will be the email address where you want to get notifications regarding the image process
 
 Schedule images:
 ----------------
