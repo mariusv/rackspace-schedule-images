@@ -1,9 +1,6 @@
 ##THIS IS NOT AN TOOL PROVIDED/MAINTANED OR SUPPORTED BY Rackspace##
 
 
-If you have a feature request just send me an email
-----------------------------------------------------------------------------------
-
 
 
 ================================
@@ -30,6 +27,7 @@ REQUIREMENT
 - Bash >= 3.0
 - python nova-client
 - crontab
+- postfix (to send emails)
 
 
 USAGE:
@@ -40,11 +38,11 @@ Install git
 
 Debian/Ubuntu:
 
-apt-get install git -y
+apt-get install git postfix -y
 
 RedHat/Centos/Fedora:
 
-yum -y install git
+yum -y install git postfix
 
 Install python nova-agent following the instructions from here: http://www.rackspace.com/knowledge_center/article/installing-python-novaclient-on-linux-and-mac-os
 
@@ -55,8 +53,13 @@ git clone https://github.com/mariusv/rackspace-schedule-images.git
 chmod +x schedule.sh (to make it executable)
 
 Edit nova file and add your credentials where:
-OS_USERNAME is your username(the user you use to login on your cloud account)
-OS_PASSWORD is your API Key and you can find it in your Rackspace Cloud account.
+----------------------------------------------
+
+OS_USERNAME= is your username(the user you use to login on your cloud account)
+OS_PASSWORD= is your API Key and you can find it in your Rackspace Cloud account.
+HOSTNAME= is the server you will take an image of
+DELETE= you have to choose between 'yes' or 'no' where 'yes' means you want to delete images older then 5 days and 'no' means you want to keep the older images
+TO_ADDRESS= will be the email address where you want to get notifications regarding the image process
 
 Schedule images:
 ----------------
@@ -92,5 +95,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   SOFTWARE.
   
-  
+
+##If you have a feature request just send me an email##
+
   
