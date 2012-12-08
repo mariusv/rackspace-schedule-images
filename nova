@@ -6,6 +6,10 @@ OS_AUTH_URL=https://lon.auth.api.rackspacecloud.com/v2.0
 OS_REGION_NAME=LON
 OS_NO_CACHE=1
 export OS_USERNAME OS_TENANT_NAME OS_AUTH_SYSTEM OS_PASSWORD OS_AUTH_URL OS_REGION_NAME OS_NO_CACHE
+HOSTNAME=ubuntu
+TODAY=$(date +"%M_%H_%d_%m_%Y")
+FIVE_DAYS_AGO=$(date --date='5 days ago' +"%M_%H_%d_%m_%Y")
+DELETE=no
 TO_ADDRESS="you@your-domain.com"
 SUBJECT="Schedule"
 BODY="Image $HOSTNAME-$TODAY has completed successful. Enjoy the rest of the day."
