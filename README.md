@@ -68,6 +68,10 @@ vim /etc/crontab
 
 add: * * * * *(where * means h/m/d/M) /root/schedule.sh &
 
+Ex:
+
+0 0 * * *   root sh /root/schedule.sh (in this example the script will runn every night at 00:00)
+
 save and you are good to go! :-)
 
 LICENSE:
